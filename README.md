@@ -1,32 +1,23 @@
-# Student-Management-System
-A simple command-line Student Management System built with Python and SQLite.
+A simple command-line Student Management System built using Python and SQLite.
 This project allows users to add, view, update, and delete student records from a local database.
 
-It demonstrates basic concepts such as:
+It is a beginner-friendly project that demonstrates CRUD operations, modular programming, and input validation.
 
-Python modular programming
+Features
 
-SQLite database operations
+Add student data
 
-Input validation
+View all students
 
-CRUD operations
+Update student name or marks
 
-🚀 Features
+Delete student record
 
-➕ Add student records
+Automatic database table creation
 
-📄 View all student records
+Input validation for name and marks
 
-✏️ Update student name or marks
-
-❌ Delete student data
-
-🗄️ Persistent storage using SQLite database
-
-🛡️ Input validation for name and marks
-
-🛠️ Tech Stack
+Tech Stack
 
 Python
 
@@ -34,23 +25,11 @@ SQLite3
 
 Command Line Interface (CLI)
 
-📂 Project Structure
+Project Structure
 student-dashboard/
 │
-├── main.py          # CLI interface and program entry point
-├── service.py       # Business logic and validation
-├── database.py      # Database operations (CRUD)
-├── students.db      # SQLite database file
+├── main.py
+├── service.py
+├── database.py
+├── students.db
 └── README.md
-
-main.py handles the user menu and input loop. 
-
-main
-
-service.py manages validation and business logic before interacting with the database. 
-
-service
-
-database.py performs direct SQLite operations like create, insert, update, delete, and fetch. 
-
-database
